@@ -80,4 +80,11 @@ button {
   .result p {
     width: 100%;
   }
+  h2 {
+    font-size: 16px;
+  }
+
+  .links {
+    font-size: 36px;
+  }
 }
