@@ -1,76 +1,72 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    min-height: 100vh;
-    color: #333;
-    padding: 50px 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
 }
 
 .container {
-    width: 60%;
-    background-color: #fff;
-    padding: 50px;
-    border: 1px solid #eee;
-    border-radius: 10px;
+  width: 60%;
+  background-color: #fff;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 span {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
+  font-size: 26px;
 }
 .result {
-    background-color: #f2f2f2;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    display: flex;
-    padding: 20px;
-    margin: 5px auto;
+  background-color: #f2f2f2;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  margin: 5px auto;
 }
 .result p {
-    width: 50%;
+  width: 50%;
 }
 
-
 input {
-    width: 100%;
-    background-color: #fafafa;
-    padding: 20px;
-    outline: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px auto;
-    display: none;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 20px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: none;
 }
 
 button {
-    background-color: blueviolet;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px auto;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto;
 }
 
-
-
-@media only screen and (max-width: 760px){
-    .container {
-        width: 95%;
-        padding: 30px;
-    }
-    .result {
-        flex-direction: column;
-    }
-    .result p {
-        width: 100%;
-    }
+@media only screen and (max-width: 760px) {
+  .container {
+    width: 95%;
+    padding: 30px;
+  }
+  .result {
+    flex-direction: column;
+  }
+  .result p {
+    width: 100%;
+  }
 }

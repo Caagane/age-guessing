@@ -1,20 +1,19 @@
 
 
-function next() {
+function ageGuessing() {
     let steps = document.getElementById('steps');
     let input = document.getElementById('input').value;
+    
     let allSteps = {
-        step1: "Adigoon ii sheegin da'daada ma soo saaraa?!",
+        step1: "Adigoon ii sheegin da'daada ma ma kuu sheegaa?!",
         step2: "Namber qabso, <span>1</span> ilaa <span>9</span>",
-        step3: "Namberka aad qabsatay, <span>*</span> 2",
-        step4: "Tirada kuu soo baxay, <span>+</span> 5",
-        step5: "Tirada kuu soo baxay, <span>*</span> 50",
-        step6: "Hadii bishii aad dhalatay la daafay + <span>1772</span> <br> hadii kale <span>1771</span>",
+        step3: "Namberka aad qabsatay, <span>* 2</span>",
+        step4: "Tirada kuu soo baxay, <span>+ 5</span>",
+        step5: "Tirada kuu soo baxay, <span>* 50</span>",
+        step6: "Hadii bishii aad dhalatay la daafay, <span>+ 1772</span> <br> hadii kale <span>+ 1771</span>",
         step7: "Tirada kuu soo baxay, <span>-</span> Sanadkii aad dhalatay",
         step8: "Tirada kuu soo baxday halkan Gali"
     }
-
-
 
     switch (steps.innerHTML) {
         case allSteps.step1:
@@ -65,11 +64,9 @@ function next() {
         
                 }
 
-
             }
             break;
     }
-
 
 }
 
